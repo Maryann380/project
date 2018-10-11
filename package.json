@@ -1,0 +1,29 @@
+{
+  "name": "tutorialwebpack",
+  "version": "1.0.0",
+  "description": "I will be working with WebPAcks in this project learning and understand how it works and why we use it .",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "file-loader": "^2.0.0",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "scripts": {
+    "build:log": "npm build webpack -- --env=1",
+    "build": "webpack",
+    "build:watch": "npm build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maryann380/project.git"
+  },
+  "author": "Mary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maryann380/project/issues"
+  },
+  "homepage": "https://github.com/Maryann380/project#readme"
+}
