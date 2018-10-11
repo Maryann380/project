@@ -14,7 +14,9 @@
   "scripts": {
     "build:log": "npm build webpack -- --env=1",
     "build": "webpack",
-    "build:watch": "npm build -- --watch"
+    "build:watch": "npm build -- --watch",
+    "build:watch:prod": "npm build:watch -- --env.env=prod",
+    "build:watch:dev": "npm build:watch -- --env.env=dev"
   },
   "repository": {
     "type": "git",
